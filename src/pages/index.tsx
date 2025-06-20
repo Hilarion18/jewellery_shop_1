@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
   return (
     <div>
       <Navbar />
-      {/* <JewelleryCarousel /> */}
+      <JewelleryCarousel />
       <ProductPage/>
       <NavbarFooter />
     </div>
