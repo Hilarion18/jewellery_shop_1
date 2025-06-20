@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import Diamond3D from "./Diamond3d";
+import Diamond3D from "../../widget/Diamond3d.jsx";
 
 const banners = [
   {
