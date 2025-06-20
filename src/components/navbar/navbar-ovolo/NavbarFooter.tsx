@@ -8,11 +8,11 @@ const WHATSAPP_MESSAGE = "Hi, I’m interested in your jewellery collection!";
 
 export default function NavbarFooter() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col">
       {/* Navbar */}
       {/* <nav className="w-full bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold text-pink-600">GlamourGems</div>
+          <div className="text-2xl font-bold text-pink-600">BaliSilvers</div>
           <ul className="hidden md:flex gap-6 text-gray-700 font-medium">
             <li className="hover:text-pink-500 cursor-pointer">Home</li>
             <li className="hover:text-pink-500 cursor-pointer">Collections</li>
@@ -35,7 +35,7 @@ export default function NavbarFooter() {
       <footer className="bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
-            <h2 className="text-xl font-semibold mb-2">GlamourGems</h2>
+            <h2 className="text-xl font-semibold mb-2">BaliSilvers</h2>
             <p>Finest handcrafted jewellery for every occasion.</p>
           </div>
           <div>
@@ -68,7 +68,7 @@ export default function NavbarFooter() {
           </div>
         </div>
         <div className="text-center py-4 text-sm text-gray-400 border-t border-gray-700">
-          © {new Date().getFullYear()} GlamourGems. All rights reserved.
+          © {new Date().getFullYear()} BaliSilvers. All rights reserved.
         </div>
       </footer>
     </div>

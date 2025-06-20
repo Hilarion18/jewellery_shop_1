@@ -33,6 +33,10 @@ export default {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
         ovolo: ['Cadiz', 'Sans-Serif']
       },
+      height: {
+        '80vh': '80vh',
+        '60vh': '60vh',
+      },
     },
   },
   plugins: [],

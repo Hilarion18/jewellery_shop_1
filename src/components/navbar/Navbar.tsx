@@ -8,7 +8,7 @@ export default function Navbar() {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <nav className="max-w-7xl mx-auto px-4 py-4 flex justify-stretch items-center gap-8">
         {/* <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold text-pink-600">GlamourGems</div>
+          <div className="text-2xl font-bold text-pink-600">BaliSilvers</div>
           <ul className="hidden md:flex gap-6 text-gray-700 font-medium">
             <li className="hover:text-pink-500 cursor-pointer">Home</li>
             <li className="hover:text-pink-500 cursor-pointer">Collections</li>
@@ -22,7 +22,7 @@ export default function Navbar() {
         </div> */}
         {/* Logo */}
         <div className="text-2xl font-bold text-pink-600 tracking-wide">
-          GlamourGems
+          BaliSilvers
         </div>
 
         {/* Desktop Menu */}

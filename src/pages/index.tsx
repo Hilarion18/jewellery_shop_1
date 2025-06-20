@@ -11,6 +11,7 @@ import ImageSliderPartial from '../widget/ImageSliderPartial';
 import ProductPage from '../components/product/ProductPage';
 import Navbar from '../components/navbar/Navbar';
 import NavbarFooter from '../components/navbar/navbar-ovolo/NavbarFooter';
+import JewelleryCarousel from '../components/banner/JewelleryCarousel';
 
 const HomePage: React.FC = () => {
   const { t } = useTranslation();
@@ -18,6 +19,7 @@ const HomePage: React.FC = () => {
   return (
     <div>
       <Navbar />
+      <JewelleryCarousel />
       <ProductPage/>
       <NavbarFooter />
     </div>
